@@ -8,7 +8,7 @@ function App() {
   const [homeTeamScore, setHomeTeamScore] = useState(10);
   const [awayTeamScore, setAwayTeamScore] = useState(5);
 
- const setHomeTeamTouchdownScore = () => {
+  const setHomeTeamTouchdownScore = () => {
     setHomeTeamScore(homeTeamScore + 7);
   }
 
